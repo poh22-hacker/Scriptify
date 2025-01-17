@@ -21,25 +21,27 @@ S       C      R   R    I   P   P    T    I   F       Y Y
 print(f"{YELLOW}[1] - Tools!!!{RESET}")  
 print(f"{YELLOW}[2] - Sair{RESET}")
 
-pergunta = input("Qual você escolhe? - ")
+pergunta = input(f"{BLUE}Qual você escolhe? - {RESET}")
 
 if pergunta == infect:  
     print("Dark Link")
     os.system('clear')  
-    print('''
+    print(f'''
+    {GREEN}
  SSSSS  CCCCC  RRRRR   III  PPPP   TTTTT III  FFFFF  Y   Y
 S       C      R   R    I   P   P    T    I   F       Y Y
  SSS    C      RRRRR    I   PPPP     T    I   FFF      Y
     S   C      R  R     I   P        T    I   F        Y
  SSSS    CCCCC R   R   III  P        T   III  F        Y
+{RESET}
 ''')
-    print(" ---Use com Moderação---")
-    print("[1] - Pishing")
-    print("[2] - Analista de Vulnerabilidade")
-    print("[3] - Ataque Wireless")
-    print("[4] - Ataque DDOS/DOS")
-    print("[5] - sair")
-    print("[6] - Atualizar")
+    print(f"{RED} ---Use com Moderação---{RESET}")
+    print(f"{YELLOW}[1] - Pishing{RESET}")
+    print(f"{YELLOW}[2] - Analista de Vulnerabilidade{RESET}")
+    print(f"{YELLOW}[3] - Ataque Wireless{RESET}")
+    print(f"{YELLOW}[4] - Ataque DDOS/DOS{RESET}")
+    print(f"{YELLOW}[5] - sair{RESET}")
+    print(f"{YELLOW}[6] - Atualizar{RESET}")
 
     subpergunta = input("Qual você escolhe? - ")
 
