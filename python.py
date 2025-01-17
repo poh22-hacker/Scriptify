@@ -75,6 +75,7 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         print("Atualizando")
         os.system('clear')
         os.system('cd')
+        os.system('cd')
         os.system('rm -rf Scriptfy')
         os.system('https://github.com/poh22-hacker/Scriptify.git')
 
