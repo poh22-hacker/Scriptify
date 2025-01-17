@@ -83,6 +83,8 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         cd
         rm -rf Scriptify
         git clone https://github.com/poh22-hacker/Scriptify
+        cd Scriptify
+        python3 python.py
         {RESET}''')
         
 
