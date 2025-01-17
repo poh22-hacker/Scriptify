@@ -73,10 +73,9 @@ S       C      R   R    I   P   P    T    I   F       Y Y
 
     elif subpergunta == "6":
         print('''
-        use os comandos: 
+        copie e colle os seguintes comandos: 
         cd
         rm -rf Scriptify
-        e depois reinstale o repositório usando o comando:
         git clone https://github.com/poh22-hacker/Scriptify
         ''')
         
