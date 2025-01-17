@@ -3,6 +3,7 @@ import os
 infect = "1"
 sair = "2"
 
+os.system('clear')
 print('''
  SSSSS  CCCCC  RRRRR   III  PPPP   TTTTT III  FFFFF  Y   Y
 S       C      R   R    I   P   P    T    I   F       Y Y
