@@ -38,30 +38,30 @@ S       C      R   R    I   P   P    T    I   F       Y Y
     if subpergunta == "1":
         print("Você escolheu: Pishing")
         os.system('clear')
-        os.system('sudo apt install git')
-        os.system('sudo apt update && apt upgrade -y')
-        os.system('sudo apt install tur-repo')
-        os.system('sudoo apt install zphisher')
+        os.system('pkg install git')
+        os.system('pkg update && apt upgrade -y')
+        os.system('pkg install tur-repo')
+        os.system('pkg install zphisher')
         os.system('zphisher')
 
     elif subpergunta == "2":
         print("Você escolheu: Analista de Vulnerabilidade")
         os.system('clear')
-        os.system('sudo apt install git')
+        os.system('pkg install git')
         os.system('git clone https://github.com/nmap/nmap.git')
         os.system('cd nmap')
-        os.system('sudo apt install nmap')
+        os.system('pkg install nmap')
 
     elif subpergunta == "3":
         print("Você escolheu: Ataque Wireless")
         os.system('clear')
-        os.system('sudo apt install git')
-        os.system('sudo apt install aircrack-ng')
+        os.system('pkg install git')
+        os.system('pkg install aircrack-ng')
 
     elif subpergunta == "4":
         print("Você escolheu: Ataque DDOS/DOS")
         os.system('clear')
-        os.system('sudo apt install git')
+        os.system('pkg install git')
         os.system('git clone https://github.com/gamkers/GAMKERS-DDOS.git')
         os.system('cd GAMKERS-DDOS')
         os.system('python2 GAMKERS-DDOS.py')
