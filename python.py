@@ -79,11 +79,11 @@ S       C      R   R    I   P   P    T    I   F       Y Y
     elif subpergunta == "6":
         os.system('clear')
         print(f"{RED}copie e cole os seguintes comandos:{RESET}")
-        print(f"{YELLOW}
+        print(f'''{YELLOW}
         cd
         rm -rf Scriptify
         git clone https://github.com/poh22-hacker/Scriptify
-        {RESET}")
+        {RESET}''')
         
 
     else:
