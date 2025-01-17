@@ -18,8 +18,8 @@ S       C      R   R    I   P   P    T    I   F       Y Y
  SSSS    CCCCC R   R   III  P        T   III  F        Y
 {RESET}
 ''')
-print("[1] - Tools!!!")  
-print("[2] - Sair")
+print(f"{YELLOW}[1] - Tools!!!{RESET}")  
+print(f"{YELLOW}[2] - Sair{RESET}")
 
 pergunta = input("Qual você escolhe? - ")
 
