@@ -9,12 +9,14 @@ BLUE = "\033[34m"  # Azul
 RESET = "\033[0m"  # Resetar para a cor padrão
 
 os.system('clear')
-print('''
+print(f'''
+{GREEN}
  SSSSS  CCCCC  RRRRR   III  PPPP   TTTTT III  FFFFF  Y   Y
 S       C      R   R    I   P   P    T    I   F       Y Y
  SSS    C      RRRRR    I   PPPP     T    I   FFF      Y
     S   C      R  R     I   P        T    I   F        Y
  SSSS    CCCCC R   R   III  P        T   III  F        Y
+{RESET}
 ''')
 print("[1] - Tools!!!")  
 print("[2] - Sair")
