@@ -23,7 +23,8 @@ print(f"{YELLOW}[2] - Sair{RESET}")
 
 pergunta = input(f"{BLUE}Qual você escolhe? - {RESET}")
 
-if pergunta == infect:  
+if pergunta == infect:
+    os.system('clear')
     print("OBS: se alguma ferramenta demorar mais de 50 segundos, use Ctrl + C")
     time.sleep(5)
     os.system('clear')  
