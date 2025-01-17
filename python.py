@@ -72,12 +72,14 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         os.system('clear')
 
     elif subpergunta == "6":
-        print("Atualizando")
-        os.system('clear')
-        os.system('cd')
-        os.system('cd')
-        os.system('rm -rf Scriptfy')
-        os.system('https://github.com/poh22-hacker/Scriptify.git')
+        print('''
+        use os comandos: 
+        cd
+        rm -rf Scriptify
+        e depois reinstale o repositório usando o comando:
+        git clone https://github.com/poh22-hacker/Scriptify
+        ''')
+        
 
     else:
         print("Opção inválida!")
