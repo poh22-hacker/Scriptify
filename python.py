@@ -29,7 +29,9 @@ S       C      R   R    I   P   P    T    I   F       Y Y
     print("[1] - Pishing")
     print("[2] - Analista de Vulnerabilidade")
     print("[3] - Ataque Wireless")
-    print("[4] - sair")
+    print("[4] - Ataque DDOS/DOS")
+    print("[5] - sair")
+    print("[6] - Atualizar")
 
     subpergunta = input("Qual você escolhe? - ")
 
@@ -57,8 +59,21 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         os.system('sudo apt install aircrack-ng')
 
     elif subpergunta == "4":
+        print("Você escolheu: Ataque DDOS/DOS")
+        os.system('clear')
+        os.system('sudo apt install git')
+        os.system('git clone https://github.com/gamkers/GAMKERS-DDOS.git')
+        os.system('cd GAMKERS-DDOS')
+        os.system('python2 GAMKERS-DDOS.py')
+
+    elif subpergunta == "5":
         print("Você escolheu sair.")
         os.system('clear')
+
+    elif subpergunta == "6":
+        print("Atualizando")
+        os.system('clear')
+        os.system('https://github.com/poh22-hacker/Scriptify.git')
 
     else:
         print("Opção inválida!")
