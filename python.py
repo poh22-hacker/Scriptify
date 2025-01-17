@@ -2,6 +2,11 @@ import os
 
 infect = "1"
 sair = "2"
+RED = "\033[31m"  # Vermelho
+GREEN = "\033[32m"  # Verde
+YELLOW = "\033[33m"  # Amarelo
+BLUE = "\033[34m"  # Azul
+RESET = "\033[0m"  # Resetar para a cor padrão
 
 os.system('clear')
 print('''
@@ -72,12 +77,13 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         os.system('clear')
 
     elif subpergunta == "6":
-        print('''
-        copie e colle os seguintes comandos: 
+        os.system('clear')
+        print(f"{RED}copie e cole os seguintes comandos:{RESET}")
+        print(f"{YELLOW}
         cd
         rm -rf Scriptify
         git clone https://github.com/poh22-hacker/Scriptify
-        ''')
+        {RESET}")
         
 
     else:
