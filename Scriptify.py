@@ -1,5 +1,5 @@
 import os
-
+import time
 infect = "1"
 sair = "2"
 RED = "\033[31m"  # Vermelho
@@ -24,7 +24,8 @@ print(f"{YELLOW}[2] - Sair{RESET}")
 pergunta = input(f"{BLUE}Qual você escolhe? - {RESET}")
 
 if pergunta == infect:  
-    print("Dark Link")
+    print("OBS: se alguma ferramenta demorar mais de 50 segundos, use Ctrl + C")
+    time.sleep(5)
     os.system('clear')  
     print(f'''
     {GREEN}
