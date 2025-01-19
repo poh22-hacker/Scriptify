@@ -26,7 +26,7 @@ pergunta = input(f"{BLUE}Qual você escolhe? - {RESET}")
 if pergunta == infect:
     os.system('clear')
     print("OBS: se alguma ferramenta demorar mais de 50 segundos, use Ctrl + C")
-    time.sleep(5)
+    time.sleep(3)
     os.system('clear')  
     print(f'''
     {GREEN}
@@ -42,8 +42,9 @@ S       C      R   R    I   P   P    T    I   F       Y Y
     print(f"{YELLOW}[2] - Analista de Vulnerabilidade{RESET}")
     print(f"{YELLOW}[3] - Ataque Wireless{RESET}")
     print(f"{YELLOW}[4] - Ataque DDOS/DOS{RESET}")
-    print(f"{YELLOW}[5] - sair{RESET}")
-    print(f"{YELLOW}[6] - Atualizar{RESET}")
+    print(f"{YELLOW}[5] - Brute Force{RESET}")
+    print(f"{YELLOW}[6] - sair{RESET}")
+    print(f"{YELLOW}[7] - Atualizar{RESET}")
 
     subpergunta = input("Qual você escolhe? - ")
 
@@ -78,11 +79,24 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         os.system('cd GAMKERS-DDOS')
         os.system('python2 GAMKERS-DDOS.py')
 
-    elif subpergunta == "5":
+        elif subpergunta == "3":
+        print("Você escolheu: Ataque Wireless")
+        os.system('clear')
+        os.system('pkg install git')
+        os.system('git clone https://github.com/poh22-hacker/Watercat.git')
+        os.system('pkg install python && python3')
+        os.system('pkg install python3-pip && python-pip')
+        os.system('pip install selenium && pip3 install selenium')
+        os.system('pip install webdriver-manager && pip3 install webdriver-manager')
+        os.system('apt install firefox')
+        os.system('cd Watercat')
+        os.system('python Watercat.py')
+
+    elif subpergunta == "6":
         print("Você escolheu sair.")
         os.system('clear')
 
-    elif subpergunta == "6":
+    elif subpergunta == "7":
         os.system('clear')
         print(f"{RED}copie e cole os seguintes comandos:{RESET}")
         print(f'''{YELLOW}
