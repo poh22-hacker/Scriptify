@@ -79,7 +79,7 @@ S       C      R   R    I   P   P    T    I   F       Y Y
         os.system('cd GAMKERS-DDOS')
         os.system('python2 GAMKERS-DDOS.py')
 
-        elif subpergunta == "3":
+    elif subpergunta == "3":
         print("Você escolheu: Ataque Wireless")
         os.system('clear')
         os.system('pkg install git')
